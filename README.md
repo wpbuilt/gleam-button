@@ -1,5 +1,7 @@
 # Gleam for Elementor
 
-Simply makes the elements rotate without writing a single line of code.
+![Alt text](/gleam-preview.gif?raw=true "Optional Title")
 
-A fairly simple but yet effective way to rotate sections visually within the Elementor Page Builder!
+Simply create beautiful gradient buttons with gleam hover effects without writing a single line of code.
+
+A fairly simple but yet effective way to create eye-catchy buttons visually within the Elementor Page Builder!
