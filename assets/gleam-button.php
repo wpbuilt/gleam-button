@@ -21,21 +21,21 @@ class GleamButton extends Widget_Base{
 		wp_enqueue_style( 'gleamstyle' );
 	}
 
-  public function get_name(){
-    return 'gleam-button';
-  }
+	public function get_name(){
+		return 'gleam-button';
+	}
 
-  public function get_title(){
-    return 'Gleam Button';
-  }
+	public function get_title(){
+		return 'Gleam Button';
+	}
 
-  public function get_icon(){
-    return 'fas fa-adjust';
-  }
+	public function get_icon(){
+		return 'fas fa-adjust';
+	}
 
-  public function get_categories(){
-    return ['general'];
-  }
+	public function get_categories(){
+		return ['general'];
+	}
 
  /**
 	 * Get button sizes.

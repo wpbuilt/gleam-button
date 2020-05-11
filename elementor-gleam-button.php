@@ -10,7 +10,7 @@
 
 namespace WPC;
 
-class Widget_Loader{
+class Gleam_Widget_Loader{
 
   private static $_instance = null;
 
@@ -26,13 +26,6 @@ class Widget_Loader{
     require_once(__DIR__ . '/assets/gleam-button.php');
   }
 
-  public function init_controls() {
-
-		// Include Control files
-    require_once(__DIR__ . '/includes/controls/groups/background.php');
-    
-	}
-
   public function register_widgets(){
 
     $this->include_widgets_files();
@@ -47,4 +40,4 @@ class Widget_Loader{
 
 }
 
-Widget_Loader::instance();
+Gleam_Widget_Loader::instance();
